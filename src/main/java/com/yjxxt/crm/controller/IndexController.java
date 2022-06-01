@@ -27,7 +27,7 @@ public class IndexController extends BaseController {
     @RequestMapping("index")
     public String index(HttpServletRequest request){
         System.out.println(request.getAttribute("ctx"));
-        System.out.println("jjjjjjjjj");
+        System.out.println("jjjjjfffjjjj");
         return "index";
     }
     @RequestMapping("welcome")
